@@ -1,0 +1,35 @@
+.container-nutri {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  line-height: 2em;
+  padding-left: 0;
+}
+
+.container-nutri li {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0;
+  padding-right: 10px;
+  border-bottom: solid 0.1em rgba(0, 0, 0, 0.1);
+}
+
+.container-nutri li p {
+  width: 100px;
+  margin: 0;
+  padding-right: 100px;
+  color:  hsl(14, 45%, 36%);
+  font-weight: 600;
+}
+
+.container-nutri :last-child {
+  border-bottom: none;
+}
+@media (max-width: 500px) {
+  .container-nutri li p {
+    width: 100px;
+    margin: 0;
+    padding-right: 20px;
+  }
+}

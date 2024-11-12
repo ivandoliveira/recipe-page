@@ -1,0 +1,23 @@
+/*tipografia*/
+
+.titulo-1 {
+  color: hsl(24, 5%, 18%);
+  font-family: "Young Serif";
+}
+
+.titulo-2 {
+  color: hsl(14, 45%, 36%);
+  font-size: 1.5em;
+  font-weight: 200;
+  font-family: "Young Serif";
+}
+
+.titulo-3 {
+  color: hsl(332, 51%, 32%);
+}
+
+.texto-padrao {
+  font-family: "Outfit", Helvetica, Arial, Helvetica, sans-serif;
+  font-size: 1em;
+  color: hsl(30, 10%, 34%);
+}

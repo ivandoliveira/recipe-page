@@ -1,0 +1,49 @@
+img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+strong {
+  color: hsl(30, 10%, 34%);
+}
+
+li::marker {
+  color: hsl(14, 45%, 36%);
+  font-weight: 600;
+}
+
+ul li {
+  list-style-position: outside;
+  list-style-image: var(--Rose-800);
+  padding-left: 20px;
+}
+
+ol li {
+  margin-bottom: 1.2em;
+  padding-left: 20px;
+}
+
+span {
+  right: 300px;
+}
+
+h4 {
+  width: 100px;
+  margin: 0;
+  padding-left: 50px;
+  font-weight: 400;
+}
+
+@media (max-width: 500px) {
+  img {
+    border-radius: 0px;
+  }
+}
+
+.principal,
+.ingredients,
+.instructions,
+.nutrition,
+.container-prep {
+  margin: 0px 20px 0px 20px;
+}

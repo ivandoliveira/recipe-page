@@ -1,0 +1,23 @@
+.container {
+  background-color: hsl(0, 0%, 100%);
+  padding: 40px;
+  margin: 40px auto 40px auto;
+  border-radius: 20px;
+  max-width: 680px;
+}
+
+@media (max-width: 500px) {
+  .container {
+    background-color: none;
+    padding: 0;
+    margin: 0px auto 0px auto;
+    border-radius: 0px;
+    width: auto;
+  }
+}
+
+.borda {
+  border-bottom: solid 0.1em rgba(0, 0, 0, 0.1);
+}
+
+

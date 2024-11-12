@@ -1,0 +1,17 @@
+@import "./componentes.css";
+@import "./nutricao.css";
+@import "../css/main.css";
+@import "../css/assets/tipografia.css";
+@import "../css/assets/componentes.css";
+
+body {
+  background-color: hsl(30, 54%, 90%);
+  margin: 0;
+}
+
+@media (max-width: 500px) {
+  body {
+    background: none;
+    margin: 0;
+  }
+}

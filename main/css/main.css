@@ -1,0 +1,14 @@
+.container-prep {
+  padding: 10px 20px 10px 20px;
+  background-color: hsl(330, 100%, 98%);
+  border-radius: 12px;
+}
+
+.line-height {
+  line-height: 2em;
+}
+
+.cor-br800 {
+  color: hsl(330, 100%, 98%);
+  font-weight: 600;
+}
